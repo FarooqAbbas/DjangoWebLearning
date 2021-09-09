@@ -5,3 +5,9 @@ from django.shortcuts import HttpResponse
 
 def news(request):
     return HttpResponse("<h1>This is our latest news </h1>")
+
+def home(request):
+    return HttpResponse("<h1>This is our home page </h1>")
+
+def contact(request):
+    return HttpResponse("<h1>This is contact us page <h1>")    
