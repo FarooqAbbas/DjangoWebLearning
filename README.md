@@ -1,4 +1,5 @@
 "# DjangoWebLearning" 
 
-4-Url Configuration in Django
-5-How to connect Django with mysql database
+-4-Url Configuration in Django
+-5-How to connect Django with mysql database
+-6 What Are Django Models ?
