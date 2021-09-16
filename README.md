@@ -8,3 +8,6 @@
 
 ### 9 Working with templates in Django     
 ### 10 Template Inheritance in Django   
+### 11 adding navbar in Django
+### 12 Working with URL Tag in Django
+
