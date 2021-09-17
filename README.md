@@ -10,4 +10,7 @@
 ### 10 Template Inheritance in Django   
 ### 11 adding navbar in Django
 ### 12 Working with URL Tag in Django
+        we have to keep in mind urls.py of the app and we should know that we are using name urlpatterns , path function
+### 13 Django Template context
+        sending data from python file to HTML, from view to html
 
