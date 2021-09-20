@@ -4,4 +4,14 @@
 <h1>This is our latest news news page</h1>
 <p>This is our latest news description</p>
 {{list}}
+{% for lang in list %}
+<ul>
+    <li>{{lang}}</li>
+</ul>
+{%endfor%}
+{%if num == 50%}
+<p>Number is 50</p>
+{% else %}
+<p> Condition is false </p>
+{%endif%}
 {% endblock %}

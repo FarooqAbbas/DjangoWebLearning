@@ -13,4 +13,5 @@
         we have to keep in mind urls.py of the app and we should know that we are using name urlpatterns , path function
 ### 13 Django Template context
         sending data from python file to HTML, from view to html
+### 15 If else Condition in Django Template (HTML pages)        
 
