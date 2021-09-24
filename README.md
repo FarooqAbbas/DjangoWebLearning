@@ -13,5 +13,9 @@
         we have to keep in mind urls.py of the app and we should know that we are using name urlpatterns , path function
 ### 13 Django Template context
         sending data from python file to HTML, from view to html
-### 15 If else Condition in Django Template (HTML pages)        
+### 15 If else Condition in Django Template (HTML pages)  
+### 16 Fetch data from database
+        obj = News.objects.get(id=1)
+### 17 Retreive Filtered Data from Mysql Database
+        not implemented yet        
 

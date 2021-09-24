@@ -1,13 +1,14 @@
 from django.shortcuts import render
-from django.shortcuts import HttpResponse
+from .models import News
 
 # Create your views here.
 
 def news(request):
-    context = {"list":['python','java','C++','C#'],
-    "num":49
+    obj = News.objects.get(id=1)
+    context = {
+        "data":obj
     }
-    return render(request, 'news.html',context)
+    return render(request, 'news.html' , context)      
 
 def home(request):
     context = {"name":"Farooq Abbas","id":15143}
